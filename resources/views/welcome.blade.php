@@ -6,8 +6,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>Pitahaya</title>
+
+
     </head>
     <body>
-
+        <main>
+        <p>Textosdsds</p>
+        </main>
     </body>
 </html>
