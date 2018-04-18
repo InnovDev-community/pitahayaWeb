@@ -1,0 +1,22 @@
+@media (min-width:1175px) {
+    .cabecera {
+        position: relative;
+        height: 110px;
+    }
+
+    .cabecera-top{
+        max-width: 1175px;
+        margin: auto;
+    }
+
+    .cabecera-mid{
+        max-width: 1175px;
+        margin: auto;
+    }
+
+    .lista {
+        position: absolute;
+        top: 27px;
+    }
+
+}
