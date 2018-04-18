@@ -25,8 +25,17 @@ nav {
     color: white;
 }
 
-.logo {
+
+.cabecera-mid{
     height:115px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    height:100%;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -53,8 +62,6 @@ span.icon-menu, span.icon-menu::before {
     font-size: 36px;
     margin: 0;
 }
-
-
 
 .lista {
     display: none;
@@ -86,4 +93,12 @@ span.icon-menu, span.icon-menu::before {
 
 .lista-item:last-child {
     background-color: #ff3300;
+}
+
+.ingreso, .cabecera-top {
+    display: none;
+}
+
+.imagen-inicio {
+    display: none;
 }

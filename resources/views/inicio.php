@@ -14,23 +14,37 @@
 <body>
     <main class="contenido">
         <header class="cabecera">
-            <a href="#" class="logo">
-                <img src="img/logo_pitahaya.png" alt="Pitahaya">
-            </a>
+            <div class="cabecera-top">
+                <div class="item-cabecera-top">
+                    <p><span class="icon-mobile"></span>+51945584029</p>
+                </div>
+                <div class="item-cabecera-top">
+                    <p><span class="icon-mail"></span>pitahayaccorp@gmail.com</p>
+                </div>
+            </div>
+            <div class="cabecera-mid">
+                <a href="#" class="logo">
+                    <img src="img/logo_pitahaya.png" alt="Pitahaya">
+                </a>
+                <ul class="ingreso">
+                        <li class="ingreso-item"><a href="#">Entrar</a></li>
+                        <li class="ingreso-item"><a href="#">Crear Cuenta</a></li>
+                </ul>
+            </div>
             <nav>
                 <div class="menu contenedor">
                     <div>MENÚ</div>
                     <div id="toggle-menu"><span class="icon-menu"></span></div>
                 </div>
                 <ul id="lista" class="lista">
-                    <li class="lista-item"><a href="#">Inicio</a></li>
+                    <li class="lista-item selected"><a href="#"><img class="imagen-inicio" src="img/nube.png">Inicio</a></li>
                     <li class="lista-item"><a href="#">Servicios</a></li>
                     <li class="lista-item"><a href="#">Trabajos</a></li>
                     <li class="lista-item"><a href="#">Nosotros</a></li>
                     <li class="lista-item"><a href="#">Contacto</a></li>
                     <li class="lista-item"><a href="#">Blog</a></li>
-                    <li class="lista-item"><a href="#">Entrar</a></li>
-                    <li class="lista-item"><a href="#">Crear Cuenta</a></li>
+                    <li class="lista-item vista-movil"><a href="#">Entrar</a></li>
+                    <li class="lista-item vista-movil"><a href="#">Crear Cuenta</a></li>
                 </ul>
             </nav>
             
