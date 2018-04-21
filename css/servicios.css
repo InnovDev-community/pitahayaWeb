@@ -7,6 +7,7 @@
     flex-wrap: wrap;
     padding: 26px 42px;
     position: relative;
+    transform: translateY(-2px); 
 }
 
 .servicios-contenedor h2 {
@@ -54,6 +55,7 @@
         top: 591px;
         background-color: rgba(0, 0, 0, 0.568);
         width: 100%;
+        transform: translateY(0px); 
     }
 
 }

@@ -24,7 +24,7 @@
                 </div>
             </div>
             <div class="cabecera-mid">
-                <a href="#" class="logo">
+                <a href="" class="logo">
                     <img src="img/logo_pitahaya.png" alt="Pitahaya">
                 </a>
                 <ul class="ingreso">
@@ -39,11 +39,11 @@
                 </div>
                 <ul id="lista" class="lista">
                     <li class="lista-item selected"><a href="#"><img class="imagen-inicio" src="img/nube.png">Inicio</a></li>
-                    <li class="lista-item"><a href="#">Servicios</a></li>
-                    <li class="lista-item"><a href="#">Trabajos</a></li>
+                    <li class="lista-item"><a href="#servicios">Servicios</a></li>
+                    <li class="lista-item"><a href="#trabajos">Trabajos</a></li>
                     <li class="lista-item"><a href="#">Nosotros</a></li>
-                    <li class="lista-item"><a href="#">Contacto</a></li>
-                    <li class="lista-item"><a href="#">Blog</a></li>
+                    <li class="lista-item"><a href="#contacto">Contacto</a></li>
+                    <li class="lista-item"><a href="#blog">Blog</a></li>
                     <li class="lista-item vista-movil"><a href="#">Entrar</a></li>
                     <li class="lista-item vista-movil"><a href="#">Crear Cuenta</a></li>
                 </ul>
@@ -64,7 +64,7 @@
                 </button>
             </div>
         </section>
-        <section class="servicios-contenedor">
+        <section id="servicios" class="servicios-contenedor">
             <h2>
                 SERVICIOS
             </h2>
@@ -105,15 +105,34 @@
                 </p>
             </div>
         </section>
-        <section class="trabajos-contenedor">
+        <section id="trabajos" class="trabajos-contenedor">
+            <div class="trabajos-texto">
+                <h2 class="trabajos-texto-titulo">
+                    #ÚltimosTrabajos_
+                </h2>
+                <p class="trabajos-texto-parrafo">
+                    Explora la tendencia generada en todos nuestros logros
+                </p>
+            </div>
+            <div class="trabajos-imagenes">
+                <figure class="trabajo-item">
+                    <img src="" alt="">
+                </figure>
+                <figure class="trabajo-item">
+                <img src="" alt="">
+                </figure>
+            </div>
+            <button id="portafolio-boton">
+                Ver Portafolio
+            </button>
         </section>
-        <section class="blog-contenedor">
+        <section id="blog" class="blog-contenedor">
         </section>
         <section class="brief-basico-contenedor">
         </section>
         <section class="unetenos-contenedor">
         </section>
-        <section class="contactanos">
+        <section id="contacto" class="contactanos">
         </section>
         <section class="pseudoFooter-contenedor">
         </section>

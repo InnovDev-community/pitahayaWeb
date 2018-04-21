@@ -4,6 +4,11 @@
 @import url(header-escritorio.css);
 @import url(slider.css);
 @import url(servicios.css);
+@import url(trabajos.css);
+
+
+
+/* footer css */
 
 .piedepagina {
     display: flex;
@@ -13,6 +18,7 @@
 
 hr {
     margin-bottom: 0;
+    width: 98%;
 }
 
 .copyright {
