@@ -5,18 +5,31 @@
 @import url(slider.css);
 @import url(servicios.css);
 @import url(trabajos.css);
-
+@import url(blog.css);
+@import url(brief-basico.css);
+@import url(unetenos.css);
+@import url(contactanos.css);
+@import url(pseudo-footer.css);
 
 
 /* footer css */
 
+*{
+    position: relative;
+}
 .piedepagina {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    bottom: 0;
+    background-color: white;
+    height: 40px;
 }
 
 hr {
+    position: absolute;
+    bottom: 40px;
     margin-bottom: 0;
     width: 98%;
 }
