@@ -1,5 +1,6 @@
 .slider-contenedor {
     height: 430px;
+    position: relative;
 }
 
 .slider-item {

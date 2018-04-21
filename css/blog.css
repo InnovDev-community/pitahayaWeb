@@ -1,4 +1,16 @@
 .blog-contenedor {
-    height: 1540px;
+    height: 1542px;
     width: 100%;
+}
+
+@media(min-width:756px){
+    /* .blog-contenedor {
+        height: 1542px;
+    } */
+}
+
+@media(min-width:1175px){
+    .blog-contenedor {
+        height: 666px;
+    }
 }

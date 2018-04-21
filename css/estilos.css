@@ -14,7 +14,7 @@
 
 /* footer css */
 
-*{
+body{
     position: relative;
 }
 .piedepagina {
@@ -24,14 +24,15 @@
     position: absolute;
     bottom: 0;
     background-color: white;
-    height: 40px;
+    height: 60px;
 }
 
-hr {
+.division {
     position: absolute;
-    bottom: 40px;
+    bottom: 60px;
     margin-bottom: 0;
     width: 98%;
+    margin-left: 1%;
 }
 
 .copyright {
