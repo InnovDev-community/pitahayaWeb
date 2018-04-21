@@ -3,6 +3,11 @@
     src: url(../font/MyriadProRegular.ttf);
 }
 
+@font-face {
+    font-family: Avenir-Cn;
+    src: url(../font/AvenirNextLTPro-Cn.otf);
+}
+
 * {
     box-sizing: border-box;
     font-family: myriad-pro;
@@ -92,7 +97,7 @@ span.icon-menu, span.icon-menu::before {
 }
 
 .lista-item:last-child {
-    background-color: #ff3300;
+    background-color: var(--primary-color);
 }
 
 .ingreso, .cabecera-top {

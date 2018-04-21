@@ -52,6 +52,45 @@
         <section class="slider-contenedor">
         </section>
         <section class="sevicios-contenedor">
+            <h2>
+                SERVICIOS
+            </h2>
+            <div class="servicio-item diseno">
+                <img src="img/servicios/diseno.png">
+                <h3 class="servicio-item-title">
+                    Diseño gráfico
+                </h3>
+                <p class="servicio-item-descripcion">
+                Diseñamos tu marca, diseño web,  diseño editorial, folletería.
+                </p>
+            </div>
+            <div class="servicio-item audiovisual">
+                <img src="img/servicios/prod_audiovisual.png">
+                <h3 class="servicio-item-title">
+                    Prod. Audiovisual
+                </h3>
+                <p class="servicio-item-descripcion">
+                    Editamos fotografía, video y  realizamos animaciones 2D y 3D.
+                </p>
+            </div>
+            <div class="servicio-item relaciones">
+                <img src="img/servicios/relaciones_publicas.png">
+                <h3 class="servicio-item-title">
+                    Relaciones Públicas
+                </h3>
+                <p class="servicio-item-descripcion">
+                    Conectamos con los medios de  comunicación y organizamos evento
+                </p>
+            </div>
+            <div class="servicio-item marketing">
+                <img src="img/servicios/marketing_digital.png">
+                <h3 class="servicio-item-title">
+                    Marketing Digital
+                </h3>
+                <p class="servicio-item-descripcion">
+                    Manejamos las Redes Sociales,  aplicamos técnicas SEO y Social Media
+                </p>
+            </div>
         </section>
         <section class="trabajos-contenedor">
         </section>
@@ -65,7 +104,9 @@
         </section>
         <section class="pseudoFooter-contenedor">
         </section>
+        <hr class="division">
         <footer class="piedepagina">
+        <p class="copyright">&copy; 2018. Pitahaya - Comunicación Corporativa. <span>Condiciones de uso. Política de privacidad </span></p>
         </footer>
     </main>
 </body>

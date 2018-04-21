@@ -1,3 +1,27 @@
+@import url(variables.css);
 @import url(header.css);
 @import url(header-tablet.css);
 @import url(header-escritorio.css);
+@import url(slider.css);
+@import url(servicios.css);
+
+.piedepagina {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+hr {
+    margin-bottom: 0;
+}
+
+.copyright {
+    text-align: center;
+    padding-left: 14px;
+    padding-right: 14px;
+    margin: 10px 0;
+}
+
+.copyright span {
+    color: var(--primary-color);
+}

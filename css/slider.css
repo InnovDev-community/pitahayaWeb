@@ -1,0 +1,14 @@
+.slider-contenedor {
+    height: 430px;
+    background: url(../img/slider/fondo_slider.png) no-repeat;
+    background-position: left center;
+    background-size: cover;
+    /* background-color: #000; */
+}
+
+@media(min-width:756px) {
+    .slider-contenedor {
+        height: 600px;
+        background-size: 158% 158%;
+    }
+}
