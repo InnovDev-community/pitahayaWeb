@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="css/fontello.css">
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/toggle.js"></script>
-    <title>Pitahaya</title>
+    <link rel="icon" href="favicon.png" type="image/x-icon">
+    <title>Pitahaya - Comunicaciones</title>
 </head>
 <body>
     <main class="contenido">
