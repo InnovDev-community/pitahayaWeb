@@ -1,5 +1,5 @@
 
-.sevicios-contenedor {
+.servicios-contenedor {
     background-color: black;
     display: flex;
     justify-content: space-evenly;
@@ -9,11 +9,16 @@
     position: relative;
 }
 
-.sevicios-contenedor h2 {
+.servicios-contenedor h2 {
     position: absolute;
     color: white;
-    font-size: 16px;
-    top: 0;
+    font-size: 17px;
+    top: -40px;
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .servicio-item {
@@ -41,4 +46,14 @@
     margin: 5px;
     font-size: 14px;
     font-family: Avenir-Cn;
+}
+
+@media(min-width:1175px) {
+    .servicios-contenedor {
+        position: absolute;
+        top: 591px;
+        background-color: rgba(0, 0, 0, 0.568);
+        width: 100%;
+    }
+
 }

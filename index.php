@@ -50,8 +50,20 @@
             
         </header>
         <section class="slider-contenedor">
+            <div class="slider-item">
+                <h2 class="slider-item-title">
+                    #CreamosTendencia en la red
+                </h2>
+                <hr>
+                <p class="slider-item-descripcion">
+                    Su marca será la primera en aparecer
+                </p>
+                <button>
+                    Descubre
+                </button>
+            </div>
         </section>
-        <section class="sevicios-contenedor">
+        <section class="servicios-contenedor">
             <h2>
                 SERVICIOS
             </h2>
