@@ -1,17 +1,105 @@
 .contactanos {
     height: 637px;
     width: 100%;
-    background-color: #cccccc;    
+    background-color: #cccccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    color:#333333;
+    font-size: 16px;
+}
+
+.contactanos-item {
+    width: 290px;
+}
+
+.contactanos-item h3 {
+    font-weight: normal;
+    font-size: 17px;
+}
+
+.contactanos-item input {
+    border-radius: 5px;
+    border-color: #333333;
+    color: #333333;
+    width: 290px;
+    height: 35px;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 5px;
+    margin-bottom: 14px;
+    margin-top: 14px;
+}
+
+#ir-menu {
+    background-color: transparent;
+    border-radius: 5px;
+    border-color: #333333;
+    color: #333333;
+    width: 166px;
+    height: 35px;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    font-size: 15px;
+    margin:14px 0 50px;
+}
+
+#suscribete {
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    border-color: var(--primary-color);
+    color: white;
+    width: 166px;
+    height: 35px;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.contactanos span.icon-mobile {
+    font-size: 25px;
+    margin: 0;
+}
+
+.contactanos span.icon-mobile::before {
+    font-size: 25px;
+    margin: 0;
 }
 
 @media(min-width:756px){
     .contactanos {
         height: 433px; 
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        position: relative;
+    }
+    .contactanos-item {
+        height: 180px;
+        width: 360px;
+        align-content: center;
+        margin-left: 12px;
+    }
+
+    .suscripcion {
+        display: flex;
+    }
+
+    #suscribete {
+        margin: 14px;
     }
 }
 
 @media(min-width:1175px){
     .contactanos {
         height: 300px; 
+    }
+    .contactanos {
+        justify-content: center;
     }
 }

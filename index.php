@@ -182,8 +182,7 @@
         </section>
         <section class="brief-basico-contenedor">
         </section>
-        <section class="unetenos-contenedor">
-            
+        <section class="unetenos-contenedor"> 
             <img src="img/unetenos/minilogo.png" alt="">
             <div class="unetenos-texto">
                 <h2 class="unetenos-texto-titulo">
@@ -200,6 +199,28 @@
             </div>
         </section>
         <section id="contacto" class="contactanos">
+            <div class="contactanos-item">
+                <h3>DISPONIBLES LAS 24 HORAS</h3>
+                <p><span class="icon-mobile"></span>+51945584029</p>
+                <p><span class="icon-mail"></span>pitahayaccorp@gmail.com</p>
+            </div>
+            <div class="contactanos-item">
+                <h3>AYUDA</h3>
+                <p>Déjanos un mensaje y te ayudaremos</p>
+                <button id="ir-menu">
+                    Ir a menú contacto
+                </button>
+            </div>
+            <div class="contactanos-item">
+                <h3>SUSCRÍBETE</h3>
+                <P>Sé el primero en recibir novedades</P>
+                <form class="suscripcion" action="" method="post">
+                    <input type="text" name="" id="correo" placeholder="Escribe tu email">
+                    <button id="suscribete">
+                        Me interesa
+                    </button>
+                </form>
+            </div>
         </section>
         <section class="pseudoFooter-contenedor">
         </section>
