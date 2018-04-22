@@ -32,7 +32,7 @@
         }
 
         .con-form{
-            width: 25%;
+            width: 280px;
             background: #fff;
             border-radius: 15px;
             padding-top: 20px;
@@ -79,7 +79,7 @@
         <header class="cabecera">
             <div class="cabecera-top">
                 <div class="item-cabecera-top">
-                    <p><span class="icon-mobile"></span>+51945584029</p>
+                    <p><span class="icon-mobile"></span>+51947546772</p>
                 </div>
                 <div class="item-cabecera-top">
                     <p><span class="icon-mail"></span>pitahayaccorp@gmail.com</p>
@@ -106,7 +106,7 @@
                     <li class="lista-item"><a href="#">Nosotros</a></li>
                     <li class="lista-item"><a href="#contacto">Contacto</a></li>
                     <li class="lista-item"><a href="#blog">Blog</a></li>
-                    <li class="lista-item vista-movil"><a href="#">Entrar</a></li>
+                    <li class="lista-item vista-movil"><a href="#" id="btn-entrar-movil">Entrar</a></li>
                     <li class="lista-item vista-movil"><a href="#">Crear Cuenta</a></li>
                 </ul>
             </nav>
@@ -237,6 +237,32 @@
                     </p>
                     <a href="#" class="blog-articulo-enlace">Seguir leyendo</a>
                 </article>
+                <!-- <?php
+
+
+                    /* Consulta para obtener las 3 ultimas publicaciones */
+                    /* $articulos=$consulta; */
+                    /* for para iterar 3 veces */
+                    /* for ($i; $i<3; $i++) {*/
+
+                   /*  echo '<article class="blog-articulo-item">
+                    <header class="blog-articulo-cabecera">
+                        <time class="blog-articulo-fecha">'; */
+                        /* Funcion para extraer la fecha de la base de datos */
+                    /* echo        '<span>'.$articulos[$i]["fecha" /* dia *//* ].'</span>'.$articulos[$i]["fecha" */ /* mes *//* ].'/'.$articulos[$i]["fecha"  *//* año *//* ]; */
+                    /*echo    '</time>
+                        <h3>'.$articulos[$i]["header"].'</h3>
+                    </header>
+                    <img src="'.$articulos[$i]["ruta_img"].'" alt="">
+                    <p class="blog-articulo-descripcion">'.$articulos[$i]["descripción"];
+                        
+                    echo '</p>
+                    <a href="'.$articulos[$i]["enlace"].'" class="blog-articulo-enlace">Seguir leyendo</a>
+                    </article>' */
+
+                    /* Cierre del for */
+                    /* } */
+                ?> -->
             </div>
             <button id="blog-mas_noticias">
                 Ver más noticias
@@ -263,7 +289,7 @@
         <section id="contacto" class="contactanos">
             <div class="contactanos-item">
                 <h3>DISPONIBLES LAS 24 HORAS</h3>
-                <p><span class="icon-mobile"></span>+51945584029</p>
+                <p><span class="icon-mobile"></span>+51947546772</p>
                 <p><span class="icon-mail"></span>pitahayaccorp@gmail.com</p>
             </div>
             <div class="contactanos-item">
@@ -335,9 +361,14 @@
     </main>
     <script>
         let btnEntrar = document.getElementById("btn-entrar"),
-            btnCloseModalLogin = document.getElementById("btn-close-form");
+            btnCloseModalLogin = document.getElementById("btn-close-form"),
+            btnEntrar2 = document.getElementById("btn-entrar-movil");
 
         btnEntrar.addEventListener('click',function(){
+            document.getElementById("modal--login").classList.add("modal-active");
+        });
+
+        btnEntrar2.addEventListener('click',function(){
             document.getElementById("modal--login").classList.add("modal-active");
         });
 
