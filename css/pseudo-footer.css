@@ -1,13 +1,118 @@
 .pseudoFooter-contenedor {
     height: 453px;
     width: 100%;
-    
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column; 
+    color: #5b5b5b;
+    padding-bottom: 64px;
+}
+
+.pseudoFooter-item {
+    margin-left: 15px;
+}
+
+.pseudoFooter-contenedor h3 {
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.pseudoFooter-contenedor a {
+    font-size: 15px;
+    color: #5b5b5b;
+}
+
+.pseudoFooter-contenedor ul {
+    padding: 0;
+}
+
+.pseudoFooter-lista {
+    list-style: none;
+    width: 305px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 34px;
+}
+
+.pseudoFooter-lista-item {
+    width: 65px;
+}
+
+.pseudoFooter-lista-item a{
+    text-decoration: none;
+    width: 100%;
+}
+
+.redesSociales {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 34px;
+}
+
+.redesSociales-item{
+    width: 28px;
+    height: 28px;
+    margin-right: 8px;
+}
+
+.redesSociales-item img {
+    width: 100%;
+    height: 100%;
+}
+
+.idiomas {
+    width: 290px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 34px;
+}
+
+.idioma-item {
+    background-color: #fff;
+    width: calc(290px / 3);
+    height: 30px;
+    border: 1px solid #999;
+    font-size: 15px;
+    color: #999;
+    cursor: pointer;
+}
+
+.idioma-item:nth-child(1) {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.idioma-item:nth-child(2) {
+    border-color: #999 transparent;
+}
+
+.idioma-item:nth-child(3) {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.idioma-selected {
+    color: white;
+    background-color: #999;
 }
 
 @media(min-width:756px){
     .pseudoFooter-contenedor {
-        height: 335px;
-        
+        height: 375px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        position: relative;
+        align-content: center;
+    }
+
+    .pseudoFooter-item {
+        width: 334px;
     }
 }
 
@@ -15,5 +120,7 @@
     .pseudoFooter-contenedor {
         height: 295px;
         
+        justify-content: center;
+        align-items: center;
     }
 }

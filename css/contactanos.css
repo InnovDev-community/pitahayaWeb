@@ -78,11 +78,11 @@
         flex-wrap: wrap;
         justify-content: flex-start;
         position: relative;
+        align-content: center;
     }
     .contactanos-item {
         height: 180px;
         width: 360px;
-        align-content: center;
         margin-left: 12px;
     }
 
@@ -98,8 +98,6 @@
 @media(min-width:1175px){
     .contactanos {
         height: 300px; 
-    }
-    .contactanos {
         justify-content: center;
     }
 }
