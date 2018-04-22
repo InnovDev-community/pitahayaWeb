@@ -1,0 +1,114 @@
+@media (min-width:756px) {
+    .cabecera {
+        position: absolute;
+        width: 100%;
+        z-index: 100;
+    } 
+
+    header {
+        background-color: transparent;
+    }
+    .vista-movil {
+        display: none;
+    }
+
+    .ingreso, .cabecera-top {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding-right: 20px;
+        color: white;
+    }
+
+    .ingreso {
+        margin: 0;
+        padding-left: 0;
+        list-style-type: none;
+        width: 30%;
+        height: 36px;
+        max-width: 220px;
+    }
+
+    .item-cabecera-top:first-child {
+        padding-right: 20px;
+        position: relative;
+    }
+
+    .item-cabecera-top p {
+        margin: 15px 0;
+    }
+
+    .ingreso a {
+        color: white;
+        text-decoration: none;
+        padding: 8px 15px;
+        height: 35px;
+    }
+
+    /* .cabecera-top {
+
+    } */
+    .cabecera-mid {
+        height: 52px;
+        justify-content: space-between;
+    }
+
+    .logo {
+        width: 70%;
+        justify-content: flex-start;
+        padding-left: 15px;
+    }
+
+    .ingreso-item:last-child a{
+        margin-left: 10px;
+        background-color: var(--primary-color);
+        border-radius: 5px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    nav {
+        background-color: transparent;
+    }
+
+    .lista {
+        display: flex !important;
+        flex-direction: row;
+        padding: 10px;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .lista-item {
+        width: 112px;
+        height: 35px;
+        border-bottom: 1px solid transparent;
+        background-color: transparent;
+    }
+
+
+    span.icon-mobile {
+        font-size: 25px;
+        position: absolute;
+        margin: 0;
+    }
+
+    span.icon-mobile::before {
+        font-size: 25px;
+        position: absolute;
+        margin: 0;
+        left: -22px;
+        top: -4px;
+    }
+
+    .imagen-inicio {
+        display: flex;
+        margin-right: 10px;
+    }
+
+    .selected {
+        border: 1px solid white;
+    }
+}

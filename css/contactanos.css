@@ -1,0 +1,17 @@
+.contactanos {
+    height: 637px;
+    width: 100%;
+    background-color: #cccccc;    
+}
+
+@media(min-width:756px){
+    .contactanos {
+        height: 433px; 
+    }
+}
+
+@media(min-width:1175px){
+    .contactanos {
+        height: 300px; 
+    }
+}

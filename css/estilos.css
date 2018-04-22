@@ -1,0 +1,47 @@
+@import url(variables.css);
+@import url(header.css);
+@import url(header-tablet.css);
+@import url(header-escritorio.css);
+@import url(slider.css);
+@import url(servicios.css);
+@import url(trabajos.css);
+@import url(blog.css);
+@import url(brief-basico.css);
+@import url(unetenos.css);
+@import url(contactanos.css);
+@import url(pseudo-footer.css);
+
+
+/* footer css */
+
+body{
+    position: relative;
+}
+.piedepagina {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    background-color: white;
+    height: 60px;
+}
+
+.division {
+    position: absolute;
+    bottom: 60px;
+    margin-bottom: 0;
+    width: 98%;
+    margin-left: 1%;
+}
+
+.copyright {
+    text-align: center;
+    padding-left: 14px;
+    padding-right: 14px;
+    margin: 10px 0;
+}
+
+.copyright span {
+    color: var(--primary-color);
+}

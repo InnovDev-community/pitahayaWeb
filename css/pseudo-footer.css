@@ -1,0 +1,19 @@
+.pseudoFooter-contenedor {
+    height: 453px;
+    width: 100%;
+    
+}
+
+@media(min-width:756px){
+    .pseudoFooter-contenedor {
+        height: 335px;
+        
+    }
+}
+
+@media(min-width:1175px){
+    .pseudoFooter-contenedor {
+        height: 295px;
+        
+    }
+}

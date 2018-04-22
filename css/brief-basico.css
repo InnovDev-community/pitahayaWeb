@@ -1,0 +1,17 @@
+.brief-basico-contenedor {
+    height: 936px;
+    width: 100%;
+    background-color: #333333;
+}
+
+@media(min-width:756px){
+    .brief-basico-contenedor {
+        height: 602px;
+    }
+}
+
+@media(min-width:1175px){
+    .brief-basico-contenedor {
+        height: 522px;
+    }
+}
