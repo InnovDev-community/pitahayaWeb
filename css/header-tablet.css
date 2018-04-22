@@ -89,13 +89,13 @@
     }
 
 
-    span.icon-mobile {
+    header span.icon-mobile {
         font-size: 25px;
         position: absolute;
         margin: 0;
     }
 
-    span.icon-mobile::before {
+    header span.icon-mobile::before {
         font-size: 25px;
         position: absolute;
         margin: 0;

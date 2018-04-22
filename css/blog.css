@@ -1,16 +1,141 @@
 .blog-contenedor {
     height: 1542px;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.blog-texto {
+    text-align: center;
+}
+
+.blog-texto-titulo {
+    font-weight: normal;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+.blog-texto-parrafo {
+    line-height: 1.5;
+    width: 250px;
+    margin-bottom: 52px;
+    margin-top:10px;
+    color: #848484;
+}
+
+.blog-articulos {
+    width:290px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.blog-articulo-item {
+    width:290px;
+    margin-bottom: 45px;
+}
+
+.blog-articulo-cabecera {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:68px;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+.blog-articulo-fecha {
+    width: 68px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--primary-color);
+    color: #fff;
+    margin: 0;
+    height: 68px;
+}
+
+.blog-articulo-fecha span {
+    font-size: 30px;
+}
+
+.blog-articulo-cabecera h3 {
+    width: 222px;
+    font-size: 17px;
+    color: var(--primary-color);
+    background-color: #fff;
+    margin: 0;
+    height:68px;
+    font-weight: normal;
+    padding-left: 15px;
+    line-height: 1.4;
+}
+
+.blog-articulo-item img{
+    width: 290px;
+    height: 145px;
+}
+
+.blog-articulo-descripcion {
+    font-family: Avenir-Cn;
+    font-size: 16px;
+    color: #848484;
+}
+
+.blog-articulo-enlace{
+    color: var(--primary-color);
+    font-family: Avenir-Cn;
+    font-size: 17px;
+}
+
+#blog-mas_noticias {
+    background-color: transparent;
+    border-radius: 5px;
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+    width: 140px;
+    height: 40px;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
 }
 
 @media(min-width:756px){
-    /* .blog-contenedor {
-        height: 1542px;
-    } */
+    .blog-texto-parrafo {
+        width: auto;
+    }
+
+    .blog-articulos {
+        width:362px;
+    }
+
+    .blog-articulo-item {
+        width:362px;
+    }
+
+    .blog-articulo-cabecera h3 {
+        width: 294px;
+    }
+
+    .blog-articulo-item img{
+        width: 362px;
+        height: 180px;
+    }
 }
 
 @media(min-width:1175px){
     .blog-contenedor {
         height: 666px;
+        line-height: 1.5;
+    }
+
+    .blog-articulos {
+        width:1150px;
+        flex-direction: row;
+        justify-content: space-around;
     }
 }
