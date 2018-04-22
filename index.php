@@ -100,14 +100,14 @@
                     <div id="toggle-menu"><span class="icon-menu"></span></div>
                 </div>
                 <ul id="lista" class="lista">
-                    <li class="lista-item selected"><a href="#"><img class="imagen-inicio" src="img/nube.png">Inicio</a></li>
-                    <li class="lista-item"><a href="#servicios">Servicios</a></li>
-                    <li class="lista-item"><a href="#trabajos">Trabajos</a></li>
-                    <li class="lista-item"><a href="#">Nosotros</a></li>
-                    <li class="lista-item"><a href="#contacto">Contacto</a></li>
-                    <li class="lista-item"><a href="#blog">Blog</a></li>
-                    <li class="lista-item vista-movil"><a href="#" id="btn-entrar-movil">Entrar</a></li>
-                    <li class="lista-item vista-movil"><a href="#">Crear Cuenta</a></li>
+                    <li class="lista-item selected"><a href="#" class="item-header"><img class="imagen-inicio" src="img/nube.png">Inicio</a></li>
+                    <li class="lista-item"><a href="#servicios" class="item-header">Servicios</a></li>
+                    <li class="lista-item"><a href="#trabajos" class="item-header">Trabajos</a></li>
+                    <li class="lista-item"><a href="#" class="item-header">Nosotros</a></li>
+                    <li class="lista-item"><a href="#contacto" class="item-header">Contacto</a></li>
+                    <li class="lista-item"><a href="#blog" class="item-header">Blog</a></li>
+                    <li class="lista-item vista-movil"><a href="#" class="item-header" id="btn-entrar-movil">Entrar</a></li>
+                    <li class="lista-item vista-movil"><a href="#" class="item-header">Crear Cuenta</a></li>
                 </ul>
             </nav>
             
