@@ -30,13 +30,14 @@
     width: 320px;
 }
 
-.slider-item button {
+#boton-descubre {
     background-color: var(--primary-color);
     border-radius: 5px;
     border-color: transparent;
     color: white;
     width: 140px;
     height: 40px;
+    cursor: pointer;
 }
 
 .slider-item hr {

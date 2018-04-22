@@ -59,7 +59,7 @@
                 <p class="slider-item-descripcion">
                     Su marca será la primera en aparecer
                 </p>
-                <button>
+                <button id="boton-descubre">
                     Descubre
                 </button>
             </div>

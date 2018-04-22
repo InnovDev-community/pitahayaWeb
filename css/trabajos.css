@@ -61,6 +61,7 @@
     height: 40px;
     border-style: solid;
     margin-top:35px;
+    cursor: pointer;
 }
 
 @media(min-width:756px) {

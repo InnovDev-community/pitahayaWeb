@@ -90,12 +90,27 @@
     height: 40px;
     border-style: solid;
     border-width: 1px;
+    cursor: pointer;
 }
 
 @media(min-width:756px){
-    /* .blog-contenedor {
-        height: 1542px;
-    } */
+    .blog-texto-parrafo {
+        width: auto;
+    }
+
+    .blog-articulo {
+        width:362px;
+    }
+
+    .blog-articulo-cabecera h3 {
+        width: 294px;
+        line-height: 1.5;
+    }
+
+    .blog-articulo img{
+        width: 362px;
+        height: 180px;
+    }
 }
 
 @media(min-width:1175px){
