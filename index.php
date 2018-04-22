@@ -223,6 +223,48 @@
             </div>
         </section>
         <section class="pseudoFooter-contenedor">
+            <div class="pseudoFooter-item">
+                <h3>INFORMACION</h3>
+                <ul class="pseudoFooter-lista">
+                    <li class="pseudoFooter-lista-item"><a href="#">Pitahaya</a></li>
+                    <li class="pseudoFooter-lista-item"><a href="#servicios">Servicios</a></li>
+                    <li class="pseudoFooter-lista-item"><a href="#trabajos">Trabajos</a></li>
+                    <li class="pseudoFooter-lista-item"><a href="#">Nosotros</a></li>
+                    <li class="pseudoFooter-lista-item"><a href="#contacto">Contacto</a></li>
+                    <li class="pseudoFooter-lista-item"><a href="#blog">Blog</a></li>
+                </ul>
+            </div>
+            <div class="pseudoFooter-item">
+                <h3>CONECTA</h3>
+                <ul class="redesSociales">
+                    <a href="#" class="redesSociales-item">
+                        <img src="img/redesSociales/facebook_icon.png" alt="" srcset="">
+                    </a>
+                    <a href="#" class="redesSociales-item">
+                        <img src="img/redesSociales/instagram_icon.png" alt="" srcset="">
+                    </a>
+                    <a href="#" class="redesSociales-item">
+                        <img src="img/redesSociales/twitter_icon.png" alt="" srcset="">
+                    </a>
+                    <a href="#" class="redesSociales-item">
+                        <img src="img/redesSociales/googleplus_icon.png" alt="" srcset="">
+                    </a>
+                    <a href="#" class="redesSociales-item">
+                        <img src="img/redesSociales/youtube_icon.png" alt="" srcset="">
+                    </a>
+                    <a href="#" class="redesSociales-item">
+                        <img src="img/redesSociales/linkedin_icon.png" alt="" srcset="">
+                    </a>
+                </ul>
+            </div>
+            <div class="pseudoFooter-item">
+                <h3>IDIOMA</h3>
+                <div class="idiomas">
+                    <button class="idioma-item idioma-selected">Español</button>
+                    <button class="idioma-item">Inglés</button>
+                    <button class="idioma-item">Portugués</button>
+                </div>
+            </div>
         </section>
         <hr class="division">
         <footer class="piedepagina">
