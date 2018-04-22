@@ -1,12 +1,59 @@
 .unetenos-contenedor {
     height: 395px;
     width: 100%;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.unetenos-texto  {
+    text-align: center;
+}
+
+.unetenos-texto-titulo {
+    font-weight: normal;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+.unetenos-texto-parrafo {
+    line-height: 1.5;
+    width: 200px;
+    margin-bottom: 30px;
+    margin-top:10px;
+    color: #848484;
+}
+
+#unetenos {
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    border-color: white;
+    color: white;
+    width: 166px;
+    height: 40px;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
 }
 
 @media(min-width:756px){
     .unetenos-contenedor {
         height: 409px;
+    }
+
+    .unetenos-texto-parrafo {
+        width: auto;
+    }
+
+    .boton-globos {
+        width: 381px;
+        display: flex;
+        justify-content: center;
+        height: 120px;
+        background: url(../img/unetenos/globitos.png), url(../img/unetenos/globitos2.png);
+        background-repeat: no-repeat;
+        background-position: 0% 100%, 100% 100%;
     }
 }
 

@@ -183,6 +183,21 @@
         <section class="brief-basico-contenedor">
         </section>
         <section class="unetenos-contenedor">
+            
+            <img src="img/unetenos/minilogo.png" alt="">
+            <div class="unetenos-texto">
+                <h2 class="unetenos-texto-titulo">
+                    #Unetenos_
+                </h2>
+                <p class="unetenos-texto-parrafo">
+                    Descubre cuanta tendencia puede llegar a tener tu marca
+                </p>
+            </div>
+            <div class="boton-globos">
+                <button id="unetenos">
+                    ¡Vamos!
+                </button>
+            </div>
         </section>
         <section id="contacto" class="contactanos">
         </section>

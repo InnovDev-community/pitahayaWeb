@@ -72,6 +72,7 @@
     height:68px;
     font-weight: normal;
     padding-left: 15px;
+    line-height: 1.4;
 }
 
 .blog-articulo-item img{
@@ -118,7 +119,6 @@
 
     .blog-articulo-cabecera h3 {
         width: 294px;
-        line-height: 1.5;
     }
 
     .blog-articulo-item img{
@@ -130,6 +130,7 @@
 @media(min-width:1175px){
     .blog-contenedor {
         height: 666px;
+        line-height: 1.5;
     }
 
     .blog-articulos {
