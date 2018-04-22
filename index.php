@@ -11,8 +11,70 @@
     <script src="js/toggle.js"></script>
     <link rel="icon" href="favicon.png" type="image/x-icon">
     <title>Pitahaya - Comunicaciones</title>
+
+    <style>
+        .modal{
+            position: fixed;
+            z-index: 1000;
+            background-color: rgba(0,0,0,0.6);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100vh;
+            
+            top: -100vh;
+            transition: all .4s;
+        }
+
+        .modal-active{
+            top: 0vh;
+        }
+
+        .con-form{
+            width: 25%;
+            background: #fff;
+            border-radius: 15px;
+            padding-top: 20px;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-bottom: 7px;
+
+            position: relative;
+        }
+
+        #btn-close-form{
+            position: absolute;
+            top:-25px;
+            right: -25px;
+            padding: 2px 0px;
+
+            background: transparent;
+            border: solid 3px #fff;
+            border-radius: 50%;
+            outline: none;
+            color: #fff;
+        }
+
+    </style>
 </head>
 <body>
+    <main class="modal" id="modal--login">
+        <div class="con-form">
+            <button class="icon-cancel" id="btn-close-form"></button>
+            <form action="" class="form-acceso login">
+                <img class="form__logo" src="img/logo_pitahaya.png" alt="">
+                <h1>Bienvenido</h1>
+                <button class="form__btn-facebook">Entra con Facebook</button>
+                <p class="form__title-alt">o entra con tu email</p>
+                <input type="text" placeholder="Nombre">
+                <input type="text" placeholder="Contraseña">
+                <a class="form__renovar-acceso" href="">¿Olvidaste tu contraseña?</a>
+                <button class="form__entrar">Entrar</button>
+            </form>
+            <p class="form__nota"><span>¿No tienes cuenta?</span><a href="">Crear cuenta</a></p>
+        </div>
+    </main>
     <main class="contenido">
         <header class="cabecera">
             <div class="cabecera-top">
@@ -28,7 +90,7 @@
                     <img src="img/logo_pitahaya.png" alt="Pitahaya">
                 </a>
                 <ul class="ingreso">
-                        <li class="ingreso-item"><a href="#">Entrar</a></li>
+                        <li class="ingreso-item"><a href="#" id="btn-entrar">Entrar</a></li>
                         <li class="ingreso-item"><a href="#">Crear Cuenta</a></li>
                 </ul>
             </div>
@@ -229,5 +291,17 @@
         <p class="copyright">&copy; 2018. Pitahaya - Comunicación Corporativa. <span>Condiciones de uso. Política de privacidad </span></p>
         </footer>
     </main>
+    <script>
+        let btnEntrar = document.getElementById("btn-entrar"),
+            btnCloseModalLogin = document.getElementById("btn-close-form");
+
+        btnEntrar.addEventListener('click',function(){
+            document.getElementById("modal--login").classList.add("modal-active");
+        });
+
+        btnCloseModalLogin.addEventListener('click',function(){
+            document.getElementById("modal--login").classList.remove("modal-active");
+        });        
+    </script>
 </body>
 </html>
