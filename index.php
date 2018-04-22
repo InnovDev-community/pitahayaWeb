@@ -135,47 +135,47 @@
                     Te mostraremos la tendencia en el mundo del marketing
                 </p>
             </div>
-            <article class="blog-articulo">
-                <header class="blog-articulo-cabecera">
-                    <time class="blog-articulo-fecha">
-                        <span>26</span>3/18
-                    </time>
-                    <h3>¿Qué contenidos puedo ofrecer en Facebook para generar audiencia?</h3>
-                </header>
-                <img src="img/blog/imagen_noticia1.png" alt="">
-                <p class="blog-articulo-descripcion">
-                    Siempre es aconsejable contar con una página en Facebook para estar en contacto con los usuarios, crear una relación con ellos y lograr que visiten la página web para que...
-                </p>
-                <a href="#" class="blog-articulo-enlace">Seguir leyendo</a>
-            </article>
-            <article class="blog-articulo">
-                <header class="blog-articulo-cabecera">
-                    <time class="blog-articulo-fecha">
-                        <span>27</span>3/18
-                    </time>
-                    <h3>La nueva tendencia del diseño web: Responsive Design.</h3>
-                </header>
-                <img src="img/blog/imagen_noticia2.png" alt="">
-                <p class="blog-articulo-descripcion">
-                    El diseño web responsive es una técnica del diseño web que busca la correcta visualización de la misma página en distintos dispositivos, desde ordenadores de escritorio...
-                </p>
-                <a href="#" class="blog-articulo-enlace">Seguir leyendo</a>
-            </article>
-            <article class="blog-articulo">
-                <header class="blog-articulo-cabecera">
-                    <time class="blog-articulo-fecha">
-                        <span>28</span>3/18
-                    </time>
-                    <h3>05 consejos para saber si tu logotipo necesita ser rediseñado</h3>
-                </header>
-                <img src="img/blog/imagen_noticia3.png" alt="">
-                <p class="blog-articulo-descripcion">
-                    A veces, vamos dejando que pase el tiempo, porque no encontramos las señales para cambiar el logotipo y cuando queremos rediseñar ya es demasiado tarde y hay que...
-                </p>
-                <a href="#" class="blog-articulo-enlace">Seguir leyendo</a>
-            </article>
-            
-
+            <div class="blog-articulos">
+                <article class="blog-articulo-item">
+                    <header class="blog-articulo-cabecera">
+                        <time class="blog-articulo-fecha">
+                            <span>26</span>3/18
+                        </time>
+                        <h3>¿Qué contenidos puedo ofrecer en Facebook para generar audiencia?</h3>
+                    </header>
+                    <img src="img/blog/imagen_noticia1.png" alt="">
+                    <p class="blog-articulo-descripcion">
+                        Siempre es aconsejable contar con una página en Facebook para estar en contacto con los usuarios, crear una relación con ellos y lograr que visiten la página web para que...
+                    </p>
+                    <a href="#" class="blog-articulo-enlace">Seguir leyendo</a>
+                </article>
+                <article class="blog-articulo-item">
+                    <header class="blog-articulo-cabecera">
+                        <time class="blog-articulo-fecha">
+                            <span>27</span>3/18
+                        </time>
+                        <h3>La nueva tendencia del diseño web: Responsive Design.</h3>
+                    </header>
+                    <img src="img/blog/imagen_noticia2.png" alt="">
+                    <p class="blog-articulo-descripcion">
+                        El diseño web responsive es una técnica del diseño web que busca la correcta visualización de la misma página en distintos dispositivos, desde ordenadores de escritorio...
+                    </p>
+                    <a href="#" class="blog-articulo-enlace">Seguir leyendo</a>
+                </article>
+                <article class="blog-articulo-item">
+                    <header class="blog-articulo-cabecera">
+                        <time class="blog-articulo-fecha">
+                            <span>28</span>3/18
+                        </time>
+                        <h3>05 consejos para saber si tu logotipo necesita ser rediseñado</h3>
+                    </header>
+                    <img src="img/blog/imagen_noticia3.png" alt="">
+                    <p class="blog-articulo-descripcion">
+                        A veces, vamos dejando que pase el tiempo, porque no encontramos las señales para cambiar el logotipo y cuando queremos rediseñar ya es demasiado tarde y hay que...
+                    </p>
+                    <a href="#" class="blog-articulo-enlace">Seguir leyendo</a>
+                </article>
+            </div>
             <button id="blog-mas_noticias">
                 Ver más noticias
             </button>
