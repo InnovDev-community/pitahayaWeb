@@ -90,7 +90,7 @@
     margin: 7px 0;
   }
   .option-input:hover {
-    background: #b95d46;
+    background: #e2826a;
   }
   .option-input:checked {
     background: #ff3300;
@@ -138,6 +138,10 @@ option {
 .brief-específico-enlace a {
     text-decoration: none;
     color: var(--primary-color);
+}
+
+.brief-entradas option {
+    font-size: 16px;
 }
 
 @media(min-width:756px){

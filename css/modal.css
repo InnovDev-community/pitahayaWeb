@@ -1,0 +1,161 @@
+.modal{
+    position: fixed;
+    z-index: 1000;
+    background-color: rgba(0,0,0,0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    
+    /* top: -100vh; */
+    transition: all .4s;
+}
+
+.modal-active{
+    top: 0vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.con-form{
+    width: 280px;
+    max-width: 330px;
+    background: #fff;
+    border-radius: 15px;
+    padding-top: 15px 15px 7px;
+    height:474px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#btn-close-form{
+    position: absolute;
+    top:-25px;
+    right: -25px;
+    padding: 2px 0px;
+
+    background: transparent;
+    border: solid 3px #fff;
+    border-radius: 50%;
+    outline: none;
+    color: #fff;
+}
+
+.form-acceso {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 92%;
+    max-width: 250px;
+}
+
+.form__logo {
+    background-color: #3f3f3e;
+    padding:16px 20px;
+    width:100%;
+    border-radius: 15px;
+}
+.form__nota {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.form__nota a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+a.form__renovar-acceso{
+    text-decoration: none;
+    color: #b7b7b7;
+}
+
+.login h1 {
+    font-family: Avenir-Bold;
+    font-size: 20px;
+}
+
+.form__title-alt {
+    color: #b7b7b7;
+}
+
+.form-acceso input {
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid #b7b7b7;
+    padding-left:10px;
+    padding-right:10px;
+    margin-bottom: 15px;
+}
+
+.form__btn-facebook span.icon-facebook-squared {
+    font-size: 24px;
+    padding-right: 5px;
+}
+
+.form__btn-facebook span.icon-facebook-squared::before {
+    font-size: 24px;
+    padding-right: 5px;
+}
+
+.form__btn-facebook {
+    background-color: #003366;
+    color: white;
+    width: 100%;
+    border: 1px solid #003366;
+    border-radius: 5px;
+    height: 38px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form__entrar {
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    border-color: var(--primary-color);
+    color: white;
+    width: 100%;
+    height: 40px;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+@media(min-width:756px) {
+    .con-form{
+        width: 330px;
+    }
+
+    .form__nota {
+        margin-bottom: 0px;
+    }
+
+    .form__logo {
+        width: 260px;
+    }
+    
+    .form__btn-facebook {
+        width: 260px;
+    }
+
+    .form-acceso input {
+        width: 260px;
+    }
+
+    .form__entrar {
+        width: 260px;
+    }
+}

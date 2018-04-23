@@ -12,53 +12,6 @@
     <link rel="icon" href="favicon.png" type="image/x-icon">
     <title>Pitahaya - Comunicaciones</title>
 
-    <style>
-        .modal{
-            position: fixed;
-            z-index: 1000;
-            background-color: rgba(0,0,0,0.6);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 100%;
-            height: 100vh;
-            
-            top: -100vh;
-            transition: all .4s;
-        }
-
-        .modal-active{
-            top: 0vh;
-        }
-
-        .con-form{
-            width: 80%;
-            max-width: 330px;
-            background: #fff;
-            border-radius: 15px;
-            padding-top: 20px;
-            padding-left: 20px;
-            padding-right: 20px;
-            padding-bottom: 7px;
-            height:474px;
-            position: relative;
-        }
-
-        #btn-close-form{
-            position: absolute;
-            top:-25px;
-            right: -25px;
-            padding: 2px 0px;
-
-            background: transparent;
-            border: solid 3px #fff;
-            border-radius: 50%;
-            outline: none;
-            color: #fff;
-        }
-
-    </style>
-
 
 </head>
 <body>
@@ -68,14 +21,14 @@
             <form action="" class="form-acceso login">
                 <img class="form__logo" src="img/logo_pitahaya.png" alt="">
                 <h1>Bienvenido</h1>
-                <button class="form__btn-facebook">Entra con Facebook</button>
+                <button class="form__btn-facebook"><span class="icon-facebook-squared"></span> Entra con Facebook</button>
                 <p class="form__title-alt">o entra con tu email</p>
                 <input type="text" placeholder="Nombre">
                 <input type="text" placeholder="Contraseña">
                 <a class="form__renovar-acceso" href="">¿Olvidaste tu contraseña?</a>
                 <button class="form__entrar">Entrar</button>
             </form>
-            <p class="form__nota"><span>¿No tienes cuenta?</span><a href="">Crear cuenta</a></p>
+            <p class="form__nota"><span>¿No tienes cuenta?</span><a href=""> Crear cuenta</a></p>
         </div>
     </div>
     <main class="contenido">
