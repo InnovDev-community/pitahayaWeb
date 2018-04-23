@@ -17,6 +17,7 @@
 body{
     position: relative;
 }
+
 .piedepagina {
     display: flex;
     justify-content: center;
