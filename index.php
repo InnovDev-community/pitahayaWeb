@@ -32,14 +32,15 @@
         }
 
         .con-form{
-            width: 280px;
+            width: 80%;
+            max-width: 330px;
             background: #fff;
             border-radius: 15px;
             padding-top: 20px;
             padding-left: 20px;
             padding-right: 20px;
             padding-bottom: 7px;
-
+            height:474px;
             position: relative;
         }
 
@@ -57,9 +58,11 @@
         }
 
     </style>
+
+
 </head>
 <body>
-    <main class="modal" id="modal--login">
+    <div class="modal" id="modal--login">
         <div class="con-form">
             <button class="icon-cancel" id="btn-close-form"></button>
             <form action="" class="form-acceso login">
@@ -74,7 +77,7 @@
             </form>
             <p class="form__nota"><span>¿No tienes cuenta?</span><a href="">Crear cuenta</a></p>
         </div>
-    </main>
+    </div>
     <main class="contenido">
         <header class="cabecera">
             <div class="cabecera-top">
@@ -270,7 +273,89 @@
                 Ver más noticias
             </button>
         </section>
-        <section class="brief-basico-contenedor">
+        <section id="brief-basico" class="brief-basico-contenedor">
+            <div class="brief-texto">
+                <h2 class="brief-texto-titulo">
+                    #CreaTuBriefBasico_
+                </h2>
+                <p class="brief-texto-parrafo">
+                    Analicemos el estado de tu marca en la red
+                </p>
+            </div>
+            <form action="" class="formulario-brief">
+                <div class="brief-tipo">
+                    <label>
+                        <input id="brief-tipo-producto" type="radio" class="option-input radio" name="example" checked />
+                        Producto
+                    </label>
+                    <label>
+                        <input  id="brief-tipo-servicio" type="radio" class="option-input radio" name="example" />
+                        Servicio
+                    </label>
+                    <label>
+                        <input  id="brief-tipo-responsabilidad_social" type="radio" class="option-input radio" name="example" />
+                        Responsabilidad Social
+                    </label>
+                    </div>
+                <div class="brief-entradas">
+                    <input type="text" placeholder="Nombre de tu marca">
+                    <select name="" id="rubro" required>
+                        <option value="" disabled selected>Rubro</option>
+                        <option value="Opcion2">Opcion2</option>
+                        <option value="Opcion3">Opcion3</option>
+                        <option value="Opcion4">Opcion4</option>
+                        <option value="Opcion5">Opcion5</option>
+                        <option value="Opcion6">Opcion6</option>
+                    </select>
+                    <select name="" id="categoria" required>
+                        <option value="" disabled selected>Categoría</option>
+                        <option value="Opcion2">Opcion2</option>
+                        <option value="Opcion3">Opcion3</option>
+                        <option value="Opcion4">Opcion4</option>
+                        <option value="Opcion5">Opcion5</option>
+                        <option value="Opcion6">Opcion6</option>
+                    </select>
+                    <select name="" id="ripo" required>
+                        <option value="" disabled selected>Tipo</option>
+                        <option value="Opcion2">Opcion2</option>
+                        <option value="Opcion3">Opcion3</option>
+                        <option value="Opcion4">Opcion4</option>
+                        <option value="Opcion5">Opcion5</option>
+                        <option value="Opcion6">Opcion6</option>
+                    </select>
+                    
+                    <select name="" id="pais" required>
+                        <option value="" disabled selected>País</option>
+                        <option value="Opcion2">Opcion2</option>
+                        <option value="Opcion3">Opcion3</option>
+                        <option value="Opcion4">Opcion4</option>
+                        <option value="Opcion5">Opcion5</option>
+                        <option value="Opcion6">Opcion6</option>
+                    </select>
+                    <select name="" id="provincia"  required>
+                        <option value="" disabled selected>Provincia</option>
+                        <option value="Opcion2">Opcion2</option>
+                        <option value="Opcion3">Opcion3</option>
+                        <option value="Opcion4">Opcion4</option>
+                        <option value="Opcion5">Opcion5</option>
+                        <option value="Opcion6">Opcion6</option>
+                    </select>
+                    <select name="" id="distrito"  required>
+                        <option value="" disabled selected>Distrito</option>
+                        <option value="Opcion2">Opcion2</option>
+                        <option value="Opcion3">Opcion3</option>
+                        <option value="Opcion4">Opcion4</option>
+                        <option value="Opcion5">Opcion5</option>
+                        <option value="Opcion6">Opcion6</option>
+                    </select>
+                    <input type="text" placeholder="Competencia posicionada (3 marcas)">
+                    <input type="text" placeholder="Link de tu fanpage">
+                </div>
+                <input id="btn-generar" type="submit" value="Generar PDF">
+            </form>
+            <div class="brief-específico-enlace">
+                <p><span>¿Deseas un brief más específico? </span><a href="#brief-basico">Pincha aquí</a></p>
+            </div>
         </section>
         <section class="unetenos-contenedor"> 
             <img src="img/unetenos/minilogo.png" alt="">
