@@ -19,15 +19,20 @@
 
 .slider-item-title {
     margin: 12px;
-    padding: 0 50px;
+    padding: 0 30px;
     text-align: center;
     width: 300px;
+    font-size:24px;
+}
+
+.slider-item-title span{
+    font-family: Avenir-Bold;
 }
 
 .slider-item-descripcion {
-    padding: 0 75px;
     text-align: center;
-    width: 320px;
+    width: 200px;
+    font-size: 17px;
 }
 
 #boton-descubre {

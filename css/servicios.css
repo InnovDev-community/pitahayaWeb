@@ -4,7 +4,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    flex-wrap: wrap;
+    flex-direction:column;
     padding: 26px 42px;
     position: relative;
     transform: translateY(-2px); 
@@ -20,6 +20,14 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    font-family: Avenir-Bold;
+}
+
+.contenido-servicios {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .servicio-item {
@@ -37,9 +45,9 @@
 
 .servicio-item-title {
     margin: 5px;
-    font-size: 16px;
+    font-size: 17px;
     font-weight: bold;
-    font-family: Avenir-Cn;
+    font-family: Avenir-Bold;
 }
 
 .servicio-item-descripcion {
@@ -49,7 +57,30 @@
     font-family: Avenir-Cn;
 }
 
+@media(min-width:756px) {
+    .contenido-servicios {
+        width: 500px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .servicios-contenedor {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 26px 80px;
+    }
+    
+
+}
+
 @media(min-width:1175px) {
+    .contenido-servicios{
+        width: 100%;
+    }
+
     .servicios-contenedor {
         position: absolute;
         top: 591px;

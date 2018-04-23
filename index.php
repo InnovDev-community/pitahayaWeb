@@ -115,7 +115,7 @@
         <section class="slider-contenedor">
             <div class="slider-item">
                 <h2 class="slider-item-title">
-                    #CreamosTendencia en la red
+                    <span>#CreamosTendencia</span> en la red
                 </h2>
                 <hr>
                 <p class="slider-item-descripcion">
@@ -130,41 +130,43 @@
             <h2>
                 SERVICIOS
             </h2>
-            <div class="servicio-item diseno">
-                <img src="img/servicios/diseno.png">
-                <h3 class="servicio-item-title">
-                    Diseño gráfico
-                </h3>
-                <p class="servicio-item-descripcion">
-                Diseñamos tu marca, diseño web,  diseño editorial, folletería.
-                </p>
-            </div>
-            <div class="servicio-item audiovisual">
-                <img src="img/servicios/prod_audiovisual.png">
-                <h3 class="servicio-item-title">
-                    Prod. Audiovisual
-                </h3>
-                <p class="servicio-item-descripcion">
-                    Editamos fotografía, video y  realizamos animaciones 2D y 3D.
-                </p>
-            </div>
-            <div class="servicio-item relaciones">
-                <img src="img/servicios/relaciones_publicas.png">
-                <h3 class="servicio-item-title">
-                    Relaciones Públicas
-                </h3>
-                <p class="servicio-item-descripcion">
-                    Conectamos con los medios de  comunicación y organizamos evento
-                </p>
-            </div>
-            <div class="servicio-item marketing">
-                <img src="img/servicios/marketing_digital.png">
-                <h3 class="servicio-item-title">
-                    Marketing Digital
-                </h3>
-                <p class="servicio-item-descripcion">
-                    Manejamos las Redes Sociales,  aplicamos técnicas SEO y Social Media
-                </p>
+            <div class="contenido-servicios">
+                <div class="servicio-item diseno">
+                    <img src="img/servicios/diseno.png">
+                    <h3 class="servicio-item-title">
+                        Diseño gráfico
+                    </h3>
+                    <p class="servicio-item-descripcion">
+                    Diseñamos tu marca, diseño web,  diseño editorial, folletería.
+                    </p>
+                </div>
+                <div class="servicio-item audiovisual">
+                    <img src="img/servicios/prod_audiovisual.png">
+                    <h3 class="servicio-item-title">
+                        Prod. Audiovisual
+                    </h3>
+                    <p class="servicio-item-descripcion">
+                        Editamos fotografía, video y  realizamos animaciones 2D y 3D.
+                    </p>
+                </div>
+                <div class="servicio-item relaciones">
+                    <img src="img/servicios/relaciones_publicas.png">
+                    <h3 class="servicio-item-title">
+                        Relaciones Públicas
+                    </h3>
+                    <p class="servicio-item-descripcion">
+                        Conectamos con los medios de  comunicación y organizamos evento
+                    </p>
+                </div>
+                <div class="servicio-item marketing">
+                    <img src="img/servicios/marketing_digital.png">
+                    <h3 class="servicio-item-title">
+                        Marketing Digital
+                    </h3>
+                    <p class="servicio-item-descripcion">
+                        Manejamos las Redes Sociales,  aplicamos técnicas SEO y Social Media
+                    </p>
+                </div>
             </div>
         </section>
         <section id="trabajos" class="trabajos-contenedor">
@@ -362,13 +364,18 @@
     <script>
         let btnEntrar = document.getElementById("btn-entrar"),
             btnCloseModalLogin = document.getElementById("btn-close-form"),
-            btnEntrar2 = document.getElementById("btn-entrar-movil");
+            btnEntrar2 = document.getElementById("btn-entrar-movil"),
+            btnEntrar3 = document.getElementById("unetenos");
 
         btnEntrar.addEventListener('click',function(){
             document.getElementById("modal--login").classList.add("modal-active");
         });
 
         btnEntrar2.addEventListener('click',function(){
+            document.getElementById("modal--login").classList.add("modal-active");
+        });
+
+        btnEntrar3.addEventListener('click',function(){
             document.getElementById("modal--login").classList.add("modal-active");
         });
 

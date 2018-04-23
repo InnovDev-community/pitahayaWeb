@@ -15,11 +15,13 @@
     font-weight: normal;
     color: var(--primary-color);
     margin-bottom: 10px;
+    font-family: Avenir-Bold;
+    font-size: 24px;
 }
 
 .unetenos-texto-parrafo {
     line-height: 1.5;
-    width: 200px;
+    width: 220px;
     margin-bottom: 30px;
     margin-top:10px;
     color: #848484;
