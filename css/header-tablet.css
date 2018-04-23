@@ -40,7 +40,7 @@
     .ingreso a {
         color: white;
         text-decoration: none;
-        padding: 8px 15px;
+        padding: 8px 14px;
         height: 35px;
     }
 
@@ -62,6 +62,7 @@
         margin-left: 10px;
         background-color: var(--primary-color);
         border-radius: 5px;
+        border: 1px solid var(--primary-color);
     }
 
     .menu {

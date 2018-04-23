@@ -32,7 +32,7 @@
         </div>
     </div>
     <div class="modal" id="modal--register">
-        <div class="con-form">
+        <div class="con-form form-register">
             <button class="icon-cancel btn-close" id="btn-close-register"></button>
             <form action="" class="form-acceso register">
                 <img class="form__logo" src="img/logo_pitahaya.png" alt="">
@@ -46,7 +46,7 @@
                 <input type="password" placeholder="Contraseña">
                 <button class="form__btn-acceso">Crear cuenta</button>
             </form>
-            <p class="form__nota"><span>¿Ya tienes cuenta?</span><a href=""> Entrar/a></p>
+            <p class="form__nota"><span>¿Ya tienes cuenta?</span><a href=""> Entrar</a></p>
         </div>
     </div>    
     <main class="contenido">
@@ -419,18 +419,15 @@
     </main>
     <script>
         let btnEntrar = document.getElementById("btn-entrar"),
-            btnRegister = document.getElementById("btn-register"),
             btnCloseModalLogin = document.getElementById("btn-close-login"),
             btnCloseModalRegister = document.getElementById("btn-close-register"),
             btnEntrar2 = document.getElementById("btn-entrar-movil"),
-            btnEntrar3 = document.getElementById("unetenos");
+            btnEntrar3 = document.getElementById("unetenos"),
+            btnRegister = document.getElementById("btn-register"),
+            btnRegister2 = document.getElementById("btn-register-movil");
 
         btnEntrar.addEventListener('click',function(){
             document.getElementById("modal--login").classList.add("modal-active");
-        });
-
-        btnRegister.addEventListener('click',function(){
-            document.getElementById("modal--register").classList.add("modal-active");
         });
 
         btnEntrar2.addEventListener('click',function(){
@@ -439,6 +436,14 @@
 
         btnEntrar3.addEventListener('click',function(){
             document.getElementById("modal--login").classList.add("modal-active");
+        });
+
+        btnRegister.addEventListener('click',function(){
+            document.getElementById("modal--register").classList.add("modal-active");
+        });
+
+        btnRegister2.addEventListener('click',function(){
+            document.getElementById("modal--register").classList.add("modal-active");
         });
 
         btnCloseModalLogin.addEventListener('click',function(){
