@@ -47,6 +47,12 @@
     cursor: pointer;
     font-size: 15px;
     margin:14px 0 50px;
+    transition: all .3s ease-in-out;
+}
+
+#ir-menu:hover {
+    background-color: #333333;
+    color: #cccccc;
 }
 
 #suscribete {

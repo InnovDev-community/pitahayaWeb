@@ -38,7 +38,7 @@
 #boton-descubre {
     background-color: var(--primary-color);
     border-radius: 5px;
-    border-color: transparent;
+    border: 1px solid var(--primary-color);
     color: white;
     width: 140px;
     height: 40px;

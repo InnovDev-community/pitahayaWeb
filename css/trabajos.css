@@ -65,6 +65,12 @@
     margin-top:35px;
     cursor: pointer;
     font-size:16px;
+    transition: all .3s ease-in-out;
+}
+
+#portafolio-boton:hover {
+    background-color: white;
+    color: gray;
 }
 
 @media(min-width:756px) {
@@ -82,6 +88,8 @@
         width: 364px;
         height: 256px;
     }
+
+
 }
 
 @media(min-width:1175px) {

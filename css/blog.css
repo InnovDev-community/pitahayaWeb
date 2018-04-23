@@ -108,6 +108,12 @@
     border-style: solid;
     border-width: 1px;
     cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+#blog-mas_noticias:hover {
+    background-color: var(--primary-color);
+    color: white;
 }
 
 @media(min-width:756px){
