@@ -17,7 +17,7 @@
 <body>
     <div class="modal" id="modal--login">
         <div class="con-form">
-            <button class="icon-cancel" id="btn-close-form"></button>
+            <button class="icon-cancel btn-close" id="btn-close-login"></button>
             <form action="" class="form-acceso login">
                 <img class="form__logo" src="img/logo_pitahaya.png" alt="">
                 <h1>Bienvenido</h1>
@@ -26,11 +26,29 @@
                 <input type="text" placeholder="Nombre">
                 <input type="text" placeholder="Contraseña">
                 <a class="form__renovar-acceso" href="">¿Olvidaste tu contraseña?</a>
-                <button class="form__entrar btn-primary">Entrar</button>
+                <button class="form__btn-acceso form__entrar btn-primary">Entrar</button>
             </form>
             <p class="form__nota"><span>¿No tienes cuenta?</span><a href=""> Crear cuenta</a></p>
         </div>
     </div>
+    <div class="modal" id="modal--register">
+        <div class="con-form">
+            <button class="icon-cancel btn-close" id="btn-close-register"></button>
+            <form action="" class="form-acceso register">
+                <img class="form__logo" src="img/logo_pitahaya.png" alt="">
+                <h1>Creamos tendencia juntos</h1>
+                <p class="form__title-alt">Registrarse es gratis</p>
+                <button class="form__btn-facebook"><span class="icon-facebook-squared"></span> Registrate por Facebook</button>
+                <p class="form__title-alt">o registrate con tu email</p>
+                <input type="text" placeholder="Nombre">
+                <input type="text" placeholder="Teléfono">
+                <input type="email" placeholder="Correo electrónico">
+                <input type="password" placeholder="Contraseña">
+                <button class="form__btn-acceso">Crear cuenta</button>
+            </form>
+            <p class="form__nota"><span>¿Ya tienes cuenta?</span><a href=""> Entrar/a></p>
+        </div>
+    </div>    
     <main class="contenido">
         <header class="cabecera">
             <div class="cabecera-top">
@@ -47,7 +65,7 @@
                 </a>
                 <ul class="ingreso">
                         <li class="ingreso-item"><a href="#" id="btn-entrar">Entrar</a></li>
-                        <li class="ingreso-item"><a href="#" class="btn-primary">Crear Cuenta</a></li>
+                        <li class="ingreso-item"><a href="#" id="btn-register" class="btn-primary">Crear Cuenta</a></li>
                 </ul>
             </div>
             <nav>
@@ -63,10 +81,10 @@
                     <li class="lista-item"><a href="#contacto" class="item-header">Contacto</a></li>
                     <li class="lista-item"><a href="#blog" class="item-header">Blog</a></li>
                     <li class="lista-item vista-movil"><a href="#" class="item-header" id="btn-entrar-movil">Entrar</a></li>
-                    <li class="lista-item vista-movil"><a href="#" class="item-header btn-primary">Crear Cuenta</a></li>
+                    <li class="lista-item vista-movil"><a href="#" class="item-header btn-primary" id="btn-register-movil">Crear Cuenta</a></li>
                 </ul>
             </nav>
-            
+      
         </header>
         <section class="slider-contenedor">
             <div class="slider-item">
@@ -401,12 +419,18 @@
     </main>
     <script>
         let btnEntrar = document.getElementById("btn-entrar"),
-            btnCloseModalLogin = document.getElementById("btn-close-form"),
+            btnRegister = document.getElementById("btn-register"),
+            btnCloseModalLogin = document.getElementById("btn-close-login"),
+            btnCloseModalRegister = document.getElementById("btn-close-register"),
             btnEntrar2 = document.getElementById("btn-entrar-movil"),
             btnEntrar3 = document.getElementById("unetenos");
 
         btnEntrar.addEventListener('click',function(){
             document.getElementById("modal--login").classList.add("modal-active");
+        });
+
+        btnRegister.addEventListener('click',function(){
+            document.getElementById("modal--register").classList.add("modal-active");
         });
 
         btnEntrar2.addEventListener('click',function(){
@@ -419,6 +443,10 @@
 
         btnCloseModalLogin.addEventListener('click',function(){
             document.getElementById("modal--login").classList.remove("modal-active");
+        });     
+
+        btnCloseModalRegister.addEventListener('click',function(){
+            document.getElementById("modal--register").classList.remove("modal-active");
         });        
     </script>
 </body>
