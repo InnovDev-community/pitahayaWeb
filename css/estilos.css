@@ -46,3 +46,12 @@ body{
 .copyright span {
     color: var(--primary-color);
 }
+
+.btn-primary {
+    transition: all .3s ease-in-out !important;
+}
+
+.btn-primary:hover {
+    background-color: #f05f3b !important;
+    border: 1px solid #f05f3b !important;
+}

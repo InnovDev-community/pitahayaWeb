@@ -26,7 +26,7 @@
                 <input type="text" placeholder="Nombre">
                 <input type="text" placeholder="Contraseña">
                 <a class="form__renovar-acceso" href="">¿Olvidaste tu contraseña?</a>
-                <button class="form__entrar">Entrar</button>
+                <button class="form__entrar btn-primary">Entrar</button>
             </form>
             <p class="form__nota"><span>¿No tienes cuenta?</span><a href=""> Crear cuenta</a></p>
         </div>
@@ -47,7 +47,7 @@
                 </a>
                 <ul class="ingreso">
                         <li class="ingreso-item"><a href="#" id="btn-entrar">Entrar</a></li>
-                        <li class="ingreso-item"><a href="#">Crear Cuenta</a></li>
+                        <li class="ingreso-item"><a href="#" class="btn-primary">Crear Cuenta</a></li>
                 </ul>
             </div>
             <nav>
@@ -63,7 +63,7 @@
                     <li class="lista-item"><a href="#contacto" class="item-header">Contacto</a></li>
                     <li class="lista-item"><a href="#blog" class="item-header">Blog</a></li>
                     <li class="lista-item vista-movil"><a href="#" class="item-header" id="btn-entrar-movil">Entrar</a></li>
-                    <li class="lista-item vista-movil"><a href="#" class="item-header">Crear Cuenta</a></li>
+                    <li class="lista-item vista-movil"><a href="#" class="item-header btn-primary">Crear Cuenta</a></li>
                 </ul>
             </nav>
             
@@ -77,7 +77,7 @@
                 <p class="slider-item-descripcion">
                     Su marca será la primera en aparecer
                 </p>
-                <button id="boton-descubre">
+                <button id="boton-descubre" class="btn-primary">
                     Descubre
                 </button>
             </div>
@@ -304,7 +304,7 @@
                     <input type="text" placeholder="Competencia posicionada (3 marcas)">
                     <input type="text" placeholder="Link de tu fanpage">
                 </div>
-                <input id="btn-generar" type="submit" value="Generar PDF">
+                <input id="btn-generar" class="btn-primary" type="submit" value="Generar PDF">
             </form>
             <div class="brief-específico-enlace">
                 <p><span>¿Deseas un brief más específico? </span><a href="#brief-basico">Pincha aquí</a></p>
@@ -321,7 +321,7 @@
                 </p>
             </div>
             <div class="boton-globos">
-                <button id="unetenos">
+                <button id="unetenos" class="btn-primary">
                     ¡Vamos!
                 </button>
             </div>
@@ -344,7 +344,7 @@
                 <P>Sé el primero en recibir novedades</P>
                 <form class="suscripcion" action="" method="post">
                     <input type="text" name="" id="correo" placeholder="Escribe tu email">
-                    <button id="suscribete">
+                    <button id="suscribete" class="btn-primary">
                         Me interesa
                     </button>
                 </form>

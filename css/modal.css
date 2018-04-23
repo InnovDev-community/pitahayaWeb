@@ -118,6 +118,13 @@ a.form__renovar-acceso{
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.form__btn-facebook:hover {
+    background-color: #14518f;
+    border: 1px solid #14518f;
 }
 
 .form__entrar {
