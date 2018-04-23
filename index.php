@@ -26,7 +26,11 @@
                 <input type="text" placeholder="Nombre">
                 <input type="text" placeholder="Contraseña">
                 <a class="form__renovar-acceso" href="">¿Olvidaste tu contraseña?</a>
+<<<<<<< HEAD
                 <button class="form__btn-acceso form__entrar btn-primary">Entrar</button>
+=======
+                <button class="form__btn-acceso">Entrar</button>
+>>>>>>> 2ddd6865e283793dc51dc7433e027e0ed92bcd2f
             </form>
             <p class="form__nota"><span>¿No tienes cuenta?</span><a href=""> Crear cuenta</a></p>
         </div>
@@ -65,7 +69,11 @@
                 </a>
                 <ul class="ingreso">
                         <li class="ingreso-item"><a href="#" id="btn-entrar">Entrar</a></li>
+<<<<<<< HEAD
                         <li class="ingreso-item"><a href="#" id="btn-register" class="btn-primary">Crear Cuenta</a></li>
+=======
+                        <li class="ingreso-item"><a href="#" id="btn-register">Crear Cuenta</a></li>
+>>>>>>> 2ddd6865e283793dc51dc7433e027e0ed92bcd2f
                 </ul>
             </div>
             <nav>
@@ -81,7 +89,11 @@
                     <li class="lista-item"><a href="#contacto" class="item-header">Contacto</a></li>
                     <li class="lista-item"><a href="#blog" class="item-header">Blog</a></li>
                     <li class="lista-item vista-movil"><a href="#" class="item-header" id="btn-entrar-movil">Entrar</a></li>
+<<<<<<< HEAD
                     <li class="lista-item vista-movil"><a href="#" class="item-header btn-primary" id="btn-register-movil">Crear Cuenta</a></li>
+=======
+                    <li class="lista-item vista-movil"><a href="#" class="item-header" id="btn-register-movil">Crear Cuenta</a></li>
+>>>>>>> 2ddd6865e283793dc51dc7433e027e0ed92bcd2f
                 </ul>
             </nav>
       
