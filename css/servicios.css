@@ -78,7 +78,7 @@
 
 @media(min-width:1175px) {
     .contenido-servicios{
-        width: 100%;
+        width: 1175px;
     }
 
     .servicios-contenedor {

@@ -46,8 +46,9 @@
 }
 
 .slider-item hr {
-    border-color: var(--primary-color);
+    border-color: transparent;
     width: 92px;
+    background-color: var(--primary-color);
 }
 
 .slider-item-title {

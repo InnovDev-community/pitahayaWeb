@@ -18,6 +18,10 @@
         top: 27px;
     }
 
+    .logo {
+        width:80%;
+    }
+
     .logo img, .ingreso {
         z-index: 1000;
     }
