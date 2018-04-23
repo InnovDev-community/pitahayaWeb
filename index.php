@@ -11,8 +11,6 @@
     <script src="js/toggle.js"></script>
     <link rel="icon" href="favicon.png" type="image/x-icon">
     <title>Pitahaya - Comunicaciones</title>
-
-
 </head>
 <body>
     <div class="modal" id="modal--login">
@@ -44,7 +42,7 @@
                 <input type="text" placeholder="Teléfono">
                 <input type="email" placeholder="Correo electrónico">
                 <input type="password" placeholder="Contraseña">
-                <button class="form__btn-acceso">Crear cuenta</button>
+                <button class="form__btn-acceso btn-primary">Crear cuenta</button>
             </form>
             <p class="form__nota"><span>¿Ya tienes cuenta?</span><a href=""> Entrar</a></p>
         </div>
@@ -286,7 +284,7 @@
                         <option value="Opcion5">Opcion5</option>
                         <option value="Opcion6">Opcion6</option>
                     </select>
-                    <select name="" id="ripo" required>
+                    <select name="" id="tipo" required>
                         <option value="" disabled selected>Tipo</option>
                         <option value="Opcion2">Opcion2</option>
                         <option value="Opcion3">Opcion3</option>

@@ -15,10 +15,18 @@
 
 * {
     box-sizing: border-box;
+}
+
+body {
     font-family: Avenir-Regular;
 }
 header {
     background-color: #2b2b2b;
+}
+
+/* quitando efecto que ponen los navegadores por defecto */
+input:focus, select:focus{
+	outline:0px;
 }
 
 .contenedor {

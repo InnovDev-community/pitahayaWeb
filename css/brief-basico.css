@@ -130,6 +130,7 @@ option {
 .brief-específico-enlace {
     width: 260px;
     text-align: center;
+    transition: all .3s ease-in-out;
 }
 
 .brief-específico-enlace p {
@@ -139,6 +140,10 @@ option {
 .brief-específico-enlace a {
     text-decoration: none;
     color: var(--primary-color);
+}
+
+.brief-específico-enlace:hover{
+    transform: scale(1.2);
 }
 
 .brief-entradas option {

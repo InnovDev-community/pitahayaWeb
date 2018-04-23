@@ -18,6 +18,18 @@ body{
     position: relative;
 }
 
+input, select{
+	transition: all .4s ease-in-out;
+}
+
+input:focus, input:hover {
+    box-shadow: 0px 0px 4px #5b5b5b;
+}
+
+.brief-entradas input:focus, .brief-entradas select:focus, .brief-entradas input:hover, .brief-entradas select:hover{
+    box-shadow: 0px 0px 8px #dfcdcd;
+}
+
 .piedepagina {
     display: flex;
     justify-content: center;

@@ -92,11 +92,12 @@
     text-align: justify;
 }
 
-.blog-articulo-enlace{
+a.blog-articulo-enlace{
     color: var(--primary-color);
     font-family: Avenir-Cn;
     font-size: 17px;
 }
+
 
 #blog-mas_noticias {
     background-color: transparent;

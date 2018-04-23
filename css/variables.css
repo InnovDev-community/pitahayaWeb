@@ -1,3 +1,7 @@
 :root {
     --primary-color: #ff3300;
 }
+
+body {
+    opacity:0;
+}
